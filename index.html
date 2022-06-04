@@ -1,0 +1,41 @@
+﻿<!doctype html>
+<html>
+	<head>
+		<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+		<META HTTP-EQUIV="Expires" CONTENT="-1">
+		<META http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>GI Horse Racing</title>
+		<LINK REL='SHORTCUT ICON' HREF='./img/logo_index.ico'>
+		<style type='text/css'>
+		</style>
+		<script type='text/javascript' src='./jquery.js'></script>
+		<script type='text/javascript' src='./jquery.xTable.js'></script>
+		<script type='text/javascript' src='./PHP_DB.php'></script>
+		<script type='text/javascript'>
+			
+			var game = {horseRacing: {}};
+			game.horseRacing = {
+				horseDb: [
+					["name", "age", ""]
+				],
+				
+				
+				init: function(e) {
+					alert(3);
+					
+				}
+			};
+			
+			$(window.document).ready(function() {
+				game.horseRacing.init("#game");
+				
+			});
+		</script>
+	</head>
+<body style='margin: 0px 0px 0px 0px;'>
+	<div id='game'>
+		
+		
+	</div>
+</body>
+</html>
